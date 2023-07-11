@@ -50,12 +50,13 @@ nav{
     text-transform: capitalize;
     border: 2px solid #000;
     padding: 30px 30px 30px 30px;
+    box-shadow: inset  0 0 0 0 #F8DA3D;
 }
-.nav-row:hover {
-    background-color: yellow;
-    background-size: 200px 100px;
-    background-position: 100% 0;
-    transition:slideColor background-position 1s ease-in-out;
+.nav-row:hover,
+.nav-row:hover p {
+  box-shadow: inset 310px 0 0 0 #1e1e1e;
+  transition: 500ms ease-in-out;
+  color: white;
 }
 .nav-row p{
     color: #000;
@@ -103,7 +104,7 @@ nav{
 .cirle:hover{
     transform: scale(1.5);
     transform: rotate(-90deg);
-    transition: 200ms ease-in-out;
+    transition: 600ms ease-in-out;
 }
 .hero-rowpar{
     display: grid;
@@ -146,7 +147,7 @@ nav{
 
 
 /* keyframers */
-@keyframes slideColor {
+/* @keyframes slideColor {
     0% {
       background-color: initial;
       background-position: -100%;
@@ -159,5 +160,5 @@ nav{
   
   .hero-row-gallery:hover {
     animation: slideColor 1s linear forwards;
-  }
+  } */
   
