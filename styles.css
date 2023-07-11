@@ -29,7 +29,7 @@ html, body {
     text-transform: capitalize;
 }
 nav{
-    width:101%;
+    width:100%;
     height: 25%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -62,11 +62,10 @@ nav{
 
 /* her0 */
 .hero{
-    width: 100%;
     height: 100%;
     background: #F8DA3D;
     text-transform: capitalize;
-    padding: 40px;
+    padding: 50px;
     font-family: "Inter", sans-serif;
 }
 .hero-row-gallery{
@@ -92,12 +91,16 @@ nav{
     display: grid;
     align-content: center;
     justify-items: center;
+    transform: scale(1);
 }
 .cirle:hover{
+    transform: scale(1.5);
     transform: rotate(-90deg);
     transition: 200ms ease-in-out;
 }
 .hero-rowpar{
     display: grid;
+    justify-content: space-between;
+    align-items: center;
     grid-auto-flow: column;
 }
