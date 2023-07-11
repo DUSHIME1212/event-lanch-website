@@ -58,3 +58,17 @@ nav{
     line-height: normal;
     text-transform: capitalize;
 }
+
+/* her0 */
+.hero{
+    width: 100%;
+    height: 100%;
+    background: #F8DA3D;
+    text-transform: capitalize;
+    padding: 40px;
+}
+.hero-row-gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
