@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+}
+.info-slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: small;
+    background-color: #7D17FF;
+    height: 30px;
+    width: 100%;
+    padding: 2px;
+}
+.info-slider p{
+    scrollbar-width: 20%;
+    scroll-behavior: smooth;
+    color: #1E1E1E;
+    font-family: "Bebas Neue";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+nav{
+    width:101%;
+    height: 25%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: nowrap;
+    background: #F8DA3D;
+    justify-content: space-between;
+}
+.nav-row-between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nav-row{
+    font-family:"Helvetica",sans-serif;
+    background: #F8DA3D;
+    text-transform: capitalize;
+    border: 2px solid #000;
+    padding: 30px 30px 30px 30px;
+    display: inline-flex;
+}
+.nav-row p{
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
