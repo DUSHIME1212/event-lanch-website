@@ -165,16 +165,18 @@ nav{
   }
   .sd{
     display: block;
-    width: 500px ;
+    width: 3000px ;
     height: 600px;
+    overflow: hidden;
+    margin: 0 auto;
   }
-  #sd img{
-    display: block;
+  .sd img{
+    width: 100%;
     transform: scale(1);
     transition: 600ms ease-out;
     height: auto;
   }
-  #sd img:hover{
+  .sd img:hover{
     transform: scale(1.5);
     
 
