@@ -42,7 +42,15 @@ nav{
 .nav-row-between{
     display: flex;
     flex-direction: row;
+    vertical-align: middle;
     justify-content: space-between;
+}
+.hero-row-gallery i{
+    transform: rotate(0deg);
+}
+.hero-row-gallery i:hover{
+    transform:scale(1) rotate(10deg);
+    transition: 200ms ease-in-out;
 }
 .nav-row{
     font-family:"Helvetica",sans-serif;
