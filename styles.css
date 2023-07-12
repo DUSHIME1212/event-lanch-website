@@ -123,8 +123,19 @@ nav{
 .hero-rowpar h1{
     font-size: 87px;
 }
+/* container */
 
-
+.container{
+    height: 100%;
+    padding: 5rem;
+    background: #F8DA3D;
+    justify-content: space-between;
+}
+.container-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 
 
