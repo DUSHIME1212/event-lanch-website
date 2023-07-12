@@ -126,8 +126,8 @@ nav{
 /* container */
 
 .container{
-    height: 100%;
-    padding: 5rem;
+    height: 100vh;
+    padding: 0 5rem;
     background: #F8DA3D;
     justify-content: space-between;
 }
@@ -136,6 +136,13 @@ nav{
     flex-direction: row;
     justify-content: space-between;
 }
+.container-row-height{
+    padding: 2rem;
+    display: grid;
+    align-content: space-between;
+  }
+  
+  
 
 
 
