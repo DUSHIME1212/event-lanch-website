@@ -120,6 +120,9 @@ nav{
     align-items: center;
     grid-auto-flow: column;
 }
+.hero-rowpar h1{
+    font-size: 87px;
+}
 
 
 
