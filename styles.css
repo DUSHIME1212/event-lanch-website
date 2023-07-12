@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400,500,600,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400,500,600,700,800,900&display=swap');
 
 *{
     padding: 0;
@@ -140,6 +140,44 @@ nav{
     padding: 2rem;
     display: grid;
     align-content: space-between;
+  }
+
+
+.event-gallery{
+    padding: 2rem;
+    display: grid;
+    align-content: space-between;
+    text-align: right;
+}
+
+  .button{
+    display: grid;
+    align-items: center;
+    border: 4px solid #000000;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 10px 25px;
+  }
+  .button:hover img{
+    margin-left: 50px;
+    transition: 600ms ease-out;
+  }
+  .sd{
+    display: block;
+    width: 500px ;
+    height: 600px;
+  }
+  #sd img{
+    display: block;
+    transform: scale(1);
+    transition: 600ms ease-out;
+    height: auto;
+  }
+  #sd img:hover{
+    transform: scale(1.5);
+    
+
   }
   
   
